@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Jorge Andres Ayala Lopez - Desarrollador Web Profesional" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link type="image/x-icon" href="public/image/codeico.png" rel="icon" />
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
+	<title>Jorge Andres Ayala lopez - Desarrollador Web</title>
+</head>
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Cargando portafolio...</p>
+		</div>
+	</div>
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Éste es el menú para dispositivos móviles y tablet's -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Jorge Andres Ayala Lopez</h4>
+					<p class="myself__data__info__role">Desarrollador Full Stack</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Inicio
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						Acerca de Mi
+					</li>
+				</a>
+				<a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						Mi Portafolio
+					</li>
+				</a>
+				<a href="#contact" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Contáctame
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- Esta es la sección principal, donde se muestra la información básica -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Jorge Andrés Ayala Lopéz</h1>
+					<p class="myself__description">Ingeniero - Desarrollador Full Stack</p>
+					<p class="myself__description">Universidad Industrial de Santader </p>
+					<p class="myself__description">UIS </p>
+				</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
+						<p>© 2020</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.linkedin.com/in/jorge-andres-ayala-lopez-037398109/" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="myself__footer__link" href="https://twitter.com/Jorgi710Ayala" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://github.com/jorgi710" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+		<section class="container__articles">
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">Acerca de Mi</li>
+					</a>
+					<a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">Mi Portafolio</li>
+					</a>
+					<a href="#contact" class="menu-list__link">
+						<li class="menu-list__item">Contáctame</li>
+					</a>
+				</ul>
+			</nav>
+
+			<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">¡Bienvenido!</h2>
+				<p class="welcome__description">Mi nombre es <strong>Jorge</strong>, soy desarrollador y vivo en la ciudad de Sogamoso. Mi lenguaje de programación favorito es <strong>javascript</strong>, con él he aprendido muchas cosas y con él desarrollo actualmente. Mi objetivo es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br />
+
+				<h2 class="welcome__title">Stack de Desarrollo</h2>
+				<p class="welcome__description">A lo largo de los años en los que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
+
+				<div class="welcome__container-stack">
+					<!-- Frontend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Frontend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-html5" style="color:#f16529;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-sass" style="color:#c6538c;"></i>
+							</div>
+							<!-- <div class="welcome__stack__tool">
+								<i class="fab fa-vuejs" style="color:#4fc08d;"></i>
+							</div> -->
+							<div class="welcome__stack__tool">
+								<i class="fab fa-react" style="color:#2196F3;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Backend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Backend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-node" style="color:#43853d;"></i>
+							</div>
+
+						</div>
+					</div>
+					<!-- Herramientas de Trabajo -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Gestión de proyectos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-git-alt" style="color:#f64e27;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-trello" style="color:#0079bf;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Databases -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Bases de datos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="postgresql" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+							</div>
+
+						</div>
+					</div>
+					<!-- Servicios en la nube -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servicios en la nube</h4>
+						<div class="welcome__stack__tools">
+							<!-- <div class="welcome__stack__tool">
+								<i class="fab fa-aws" style="color:#13aa52;"></i>
+							</div> -->
+							<div class="welcome__stack__tool">
+								<i class="fab fa-digital-ocean" style="color:#0069ff;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="googlecloud" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/zeit/zeit-icon.svg" alt="zeithq" />
+							</div>
+						</div>
+					</div>
+					<!-- Servidores -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servidores</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-linux" style="color:#2d2d2d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-ubuntu" style="color:#e95420;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article class="portfolio" id="portfolio">
+				<h2 class="portfolio__title">Mi Portafolio</h2>
+				<p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
+				<blockquote class="portfolio__blockquote">Puedes encontrar más información sobre mis proyectos en mi perfil de <strong>Github</strong>.</blockquote>
+
+				<section class="portfolio__works">
+					<!-- portafolio de compañia -->
+					<article class="portfolio__works__item" id="taxadministrador">
+						<div class="portfolio__works__item__header">
+							<h3 class="portfolio__works__item__header__title">
+								PORTAFOLIO DE COMPAÑIA
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Aplicación web enfocada a mostar los srevicos que ofrece la empresa, utilizando herramientas como sliders, banners, cards que puede ser llevadas a gran escala facilmente <strong>COMPANY NAME</strong></p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role"><a href="https://vibrant-mccarthy-65c5da.netlify.app/?fbclid=IwAR2TO1NAhucK6ZGRuzUNRSevps-QHyDx6sV1GChJO3VukvrqbsuHopADlAc">Desarrollador Frontend</a></div>
+							<div>
+								
+								<i class="fab fa-bootstrap fa-lg" style="color:#563d7c;"></i>
+								<i class="fab fa-css3-alt fa-lg" style="color:#0170ba;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+							</div>
+						</div>
+					</article>
+
+					<!-- Blog-->
+					<article class="portfolio__works__item" id="busser">
+						<div class="portfolio__works__item__header">
+							<h3 class="portfolio__works__item__header__title">
+								BLOG
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Este en un pagina web enfocada hacia la parte de blogero que quiera compartir sus vivencias, desarrollada con multiples tecnologias, ademas es completamente responsive.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role"><a href="https://mystifying-darwin-38a778.netlify.app/blog.html?fbclid=IwAR0MRiAL2VtSJ4op5vF-2ZU4n4EJp3Un4qPkUS9cePElzA13uVMV20l-bQg">Desarrollador Frontend</a></div>
+							<div>
+							<div>
+								<i class="fab fa-bootstrap fa-lg" style="color:#563d7c;"></i>
+								<i class="fab fa-css3-alt fa-lg" style="color:#0170ba;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+								<i class="fab fa-node-js fa-lg" style="color:#026e00;"></i>
+								<i class="fab fa-git-alt fa-lg" style="color:#f64e27;"></i>
+							</div>
+						</div>
+					</article>
+
+					<!-- Gym -->
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							<h3 class="portfolio__works__item__header__title">
+								NEW GYM COLOMBIA
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Enfocada al proyecto <strong>New Gym Colombia</strong>  que permite ser un gymnansio moderno que abarca todos los canales para publicidad y no podia dejar atras su presencia en la web.</p>
+
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role"><a href="https://mystifying-darwin-38a778.netlify.app/index.html">Desarrollador Frontend</a></div>
+							<div>
+							<div>
+								<i class="fab fa-bootstrap fa-lg" style="color:#563d7c;"></i>
+								<i class="fab fa-css3-alt fa-lg" style="color:#0170ba;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+								<i class="fab fa-node-js fa-lg" style="color:#026e00;"></i>
+								<i class="fab fa-git-alt fa-lg" style="color:#f64e27;"></i>
+							</div>
+						</div>
+					</article>
+
+					<!-- GALLINAS FELICES -->
+					<article class="portfolio__works__item" id="dashboard">
+						<div class="portfolio__works__item__header">
+							<h3 class="portfolio__works__item__header__title">
+								GALLINAS FELICES
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Pagina web para ayudar a pequeños empresarios a mostrar sus productos en caso los huevos criollos, en su distribucion y todo la parte operacional </p>
+						
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role"><a href="https://hardcore-morse-a569f5.netlify.app/nosotros.html">Desarrollador Frontend</a></div>
+							<div>
+							<div>
+								<i class="fab fa-bootstrap fa-lg" style="color:#563d7c;"></i>
+								<i class="fab fa-css3-alt fa-lg" style="color:#0170ba;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+								<i class="fab fa-git-alt fa-lg" style="color:#f64e27;"></i>
+							</div>
+						</div>
+					</article>
+
+					
+				</section>
+			</article>
+
+			<article class="contact" id="contact">
+				<h2 class="contact__title">¿Necesitas soluciones tecnológicas para ti o tu empresa?</h2>
+				<p class="contact__description">Has llegado al lugar indicado. Actualmente estoy dispuesto a solucionar tu problema usando las mejores técnicas de análisis y desarrollo de software. <br> <br> Puedes contactarme para tomarnos un café y así hablar de tu idea. Podrás encontrar mis redes sociales en el panel principal o si deseas, puedes escribirme a mi correo <strong>jorgi710@hotmail.com</strong>. <br><br> Si tienes algún comentario con respecto a mi portafolio, por favor házmelo saber.</p>
+
+
+				<div class="contact__social">
+					<a class="contact__social__link" href="https://www.instagram.com/jorgi710/" target="_blank">
+						<i class="fab fa-instagram" style="color: palevioletred;"></i>
+					</a>
+					<a class="contact__social__link" href="https://twitter.com/Jorgi710Ayala" target="_blank">
+						<i class="fab fa-twitter-square" style="color: #2196F3;"></i>
+					</a>
+					<a class="contact__social__link" href="https://www.facebook.com/andres.ayalalopez.75" target="_blank">
+						<i class="fab fa-facebook-square" style="color: #4267b2;"></i>
+					</a>
+					<a class="contact__social__link" href="https://github.com/jorgi710" target="_blank">
+						<i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+					</a>
+				</div>
+			</article>
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="public/js/main.js"></script>
+</body>
+</html>
